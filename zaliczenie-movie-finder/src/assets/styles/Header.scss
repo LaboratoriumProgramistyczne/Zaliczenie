@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+
+    &__title{
+        font-size: 1.8rem;
+        text-shadow: 4px 2px 8px #000;
+    }
+}
+
+
+@media all and (min-width: 300px) and (max-width: 600px){
+    .header{
+        &__title{
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+    }
+}
